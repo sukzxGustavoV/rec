@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Venda de Chuteiras</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="dark-mode"> 
+        <div class="logo">
+            <img class="no-border" src="logo.png" alt="Logo">
+        </div>        
+        <h1>Recuperação Kellyzinha</h1>
+        </div>
+        
+    <div class="cart">
+        <img class="no-border" src="carrinho.jpg" alt="Carrinho de Compras">
+        <span class="cart-count">0</span>
+    </div>
+    </header>
+    
+    <center>
+        <h3>Modo claro</h3>
+    <label class="switch">
+        <input type="checkbox" id="mode-switch">
+      <span class="slider round"></span></center>
+    <main>
+        <div class="slideshow-container">
+            <div class="slide fade">
+                <img src="imagem1.jpg" alt="Imagem 1">
+            </div>
+            <div class="slide fade">
+                <img src="imagem2.jpg" alt="Imagem 2">
+            </div>
+            <div class="slide fade">
+                <img src="imagem3.jpg" alt="Imagem 3">
+            </div>
+        </div>
+       <br>
+        <div class="product">
+            <img src="chuteira1.jpg" alt="Chuteira 1">
+            <h2>Chuteira Nike Mercurial</h2>
+            <p>R$ 519,90</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+        <div class="product">
+            <img src="chuteira2.jpg" alt="Chuteira 2">
+            <h2>Chuteira Adidas Predator</h2>
+            <p>R$ 649,99</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+        <div class="product">
+            <img src="chuteira3.jpg" alt="Chuteira 3">
+            <h2>Chuteira Puma Future</h2>
+            <p>R$ 499,99</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+        <div class="product">
+            <img src="chuteira4.jpg" alt="Chuteira 4">
+            <h2>Chuteira Nike Phantom</h2>
+            <p>R$ 559,99</p>
+            <button class="like-btn" onclick="toggleLike(this)">Curtir</button>
+        </div>
+
+        <div class="cart-container">
+            <h2>Carrinho de Compras</h2>
+            <ul class="cart-items"></ul>
+            <button class="checkout-btn">Finalizar Compra</button>
+        </div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
